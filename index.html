@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Sefa Demirci" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sefa Demirci">Sefa Demirci</h1>
+
+          <p class="title">Bilgisayar Mühendisi</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sefa.demirci1@outlook.com" class="contact-link">sefa.demirci1@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefon</p>
+
+              <a href="#" class="contact-link">+90 0542 793 01 11</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Doğum günü</p>
+
+              <time datetime="1982-06-23">Şubat 20, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Konum</p>
+
+              <address>Etimesgut, Ankara Turkey</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sefa-demirci-41b207211/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Özgeçmiş</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projelerim</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Iletişim</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="hakkımda">
+
+        <header>
+          <h2 class="h2 article-title">Benim Hakkımda</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Ankara Üniversitesi Bilgisayar Mühendisliği bölümünden 3.80 GPA' ile mezun oldum. PostgreSQL, SQL ve veritabanı
+              yönetimi konusunda tecrübeye sahibim. Java ve React-Native dillerini kullanarak mobil uygulama
+              geliştirme konusunda bitmiş projelerim bulunmaktadır. Node.js ve Python Flask ile tamamlanmış
+              projelerim bulunmaktadır. Ayrıca ASP.NET (7.0) ile geliştirmş olduğum bir web ve API projemiz olan bir
+              usta yardım uygulamamız vardır. Python'da Selenium kullanarak test otomasyonu geliştirdim.
+          </p>
+
+          <p>
+            2021
+            yılında Hava Harp Okulu'nda T-41D uçağı ile 14 sorti ve 14 saatlik uçuş deneyimim bulunmakta olup,
+            son sortim solo uçuş olarak gerçekleştirilmiştir. Vizyoner Genç KÖK Programında çırak olarak yer
+            almaktayım. Savunma Sanayi Akademisi onaylı eğitimler aldım. Bu eğitimler; 35 saatlik Temel Proje
+            Yönetimi, Agile Methods-Scrum Frameworks ve TRIZ Creative Problem Solving eğitimleridir. Ayrıca
+            kendine güvenen, eğlenceli, takım çalışmasına yatkın, disiplinli, hırslı, öğrenmeye açık ve kendini
+            geliştirmek için çabalayan bir mühendisim.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ben Neler Yapıyorum</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Profesyonel düzeyde yapılmış en modern ve kaliteli tasarım.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Profesyonel düzeyde yüksek kaliteli backend-frontend site geliştirme.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  iOS ve Android için profesyonel uygulama geliştirme.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Documentation</h4>
+
+                <p class="service-item-text">
+                  Yaptığı işleri profesyonel şekilde dokümante etme.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Referanslar</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Onur Yörük" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Onur Yörük</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Uçuş Test Veri Sistemleri Baş Mühendisi
+                  </p>
+                </div>
+                <div class="testimonials-details" data-testimonials-details>
+                  <p><strong>Firma / Kurum:</strong> &nbsp; TUSAŞ</p>
+                  <p><strong>Unvan:</strong> &nbsp; Uçuş Test Veri Sistemleri Baş Mühendisi</p>
+                  <p><strong>E-posta Adresi:</strong> &nbsp; ornek@tusas.com</p>
+                  <p><strong>GSM No:</strong> &nbsp; 05445166045</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="İREM SELİN DENİZ" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>İREM SELİN DENİZ</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    İş Analitiği Baş Mühendisi
+                  </p>
+                </div>
+                <div class="testimonials-details" data-testimonials-details>
+                  <p><strong>Firma / Kurum:</strong> &nbsp; TUSAŞ</p>
+                  <p><strong>Unvan:</strong> &nbsp; İş Analitiği Baş Mühendisi</p>
+                  <p><strong>E-posta Adresi:</strong> &nbsp; ornek@tusas.com</p>
+                  <p><strong>GSM No:</strong> &nbsp; 05464220094</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>SEMİH BÜYÜKBAYRAM</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    İş Analizi Müdürü
+                  </p>
+                </div>
+                <div class="testimonials-details" data-testimonials-details>
+                  <p><strong>Firma / Kurum:</strong> &nbsp; TUSAŞ</p>
+                  <p><strong>Unvan:</strong> &nbsp; İş Analizi Müdürü</p>
+                  <p><strong>E-posta Adresi:</strong> &nbsp; ornek@tusas.com</p>
+                  <p><strong>GSM No:</strong> &nbsp; 05057898968</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>DAVUT ÇIKRIKÇI</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    İş Geliştirme Müdürü
+                  </p>
+                </div>
+                <div class="testimonials-details" data-testimonials-details>
+                  <p><strong>Firma / Kurum:</strong> &nbsp; TUSAŞ</p>
+                  <p><strong>Unvan:</strong> &nbsp; İş Analizi Müdürü</p>
+                  <p><strong>E-posta Adresi:</strong> &nbsp; ornek@tusas.com</p>
+                  <p><strong>GSM No:</strong> &nbsp; 05053697346</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">13 Kasım, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+              <div testimonials-modal-details>
+                <p><strong>Firma / Kurum:</strong> &nbsp; TUSAŞ</p>
+                <p><strong>Unvan:</strong> &nbsp; İş Analitiği Baş Mühendisi</p>
+                <p><strong>E-posta Adresi:</strong> &nbsp; ornek@tusas.com</p>
+                <p><strong>GSM No:</strong> &nbsp; 05464220094</p>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="özgeçmiş">
+
+        <header>
+          <h2 class="h2 article-title">Özgeçmiş</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Eğitim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ANKARA ÜNİVERSİTESİ BİLGİSAYAR MÜHENDİSLİĞİ</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                GPA : 3.80
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AFŞİN FEN LİSESİ</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                <p></p>
+                <p class="timeline-text">Mezuniyet Ortalaması : 89.75</p>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">İş Deneyimi</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">İş Analitiği (Stajyer)</h4>
+
+              <span>02/2024 — 06/2024</span>
+
+              <p class="timeline-text">
+                İş Paydaş ve İş Metrikleri birimin yani aslında İş Analizi Müdürlüğünün gerekli
+                yazılım altyapısını oluşturmak.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kısmi Zamanlı çalışan (Uçuş Test Veri Sistemleri)</h4>
+
+              <span>05/2023 — 01/2024</span>
+
+              <p class="timeline-text">
+                Uçuş test faaliyetleri kapsamında yürütülen yazılım projelerinde gerekli
+                altyapı çalışmalarını yürütmek. Node js ve Python Flaskta iki tane web
+                application geliştirildi. 
+                <p class="timeline-text">
+                Yetenekler: Node js · Uçuş Testi · PostgreSQL · Mobil Uygulamalar · Java
+                · JavaScript · HTML · Mühendislik· Mobil Uygulamalar · .Net · C#
+                · React Native · Python ·</p>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SKY Experince Stajyer (Uçuş Test Veri Sistemleri)</h4>
+
+              <span>11/2022 — 05/2023</span>
+
+              <p class="timeline-text">
+                2022-2023 Sky Experience Çırağı
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Yetenekler</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Asp.NET(7.0) MVC</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node Js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java (Mobil uygulama)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React Native (Mobil uygulama)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Excel-Word-Pdf (Dokümantasyon)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projelerim">
+
+        <header>
+          <h2 class="h2 article-title">Projeler</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobil Application</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              
+              <a href="./assets/images/resim-pcap/1.png" class="glightbox" data-gallery="gallery-pcap">
+                
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-pcap/1.png" alt="Pcap/PcapNG Reader" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pcap/PcapNG Reader</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+              <div id="additional-images-pcap" style="display: none;"></div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-haftalıkFaaliyet/1.png" class="glightbox" data-gallery="gallery-faaliyet">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-haftalıkFaaliyet/1.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Haftalık Faaliyet Raporu Portalı</h3>
+
+                <p class="project-category">Web Development</p>
+                <div id="additional-images-faaliyet" style="display: none;"></div>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-3DProject/1.png" class="glightbox" data-gallery="gallery-3D">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-3DProject/1.png" alt="3DProject" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Uçuş Simülasyonu</h3>
+
+                <p class="project-category">Web Applications</p>
+
+              </a>
+              <div id="additional-images-3D" style="display: none;"></div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-ustaYardım/1.png" class="glightbox" data-gallery="gallery-ustaYardım">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-ustaYardım/1.png" alt="ustaYardım" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Usta Yardım</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+              <div id="additional-images-ustaYardım" style="display: none;"></div>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-pcap/video.mp4" class="glightbox" data-gallery="gallery-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-pcap/1.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pcap Reader Uygulama Videosu</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-3DProject/video.mp4" class="glightbox" data-gallery="gallery-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-3DProject/2.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Uçuş Simülasyonu Videosu</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/resim-ustaYardım/4.png" class="glightbox" data-gallery="gallery-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-ustaYardım/4.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Usta Yardım Uygulama Videosu</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>  
+            
+            <li class="project-item  active" data-filter-item data-category="mobil application">
+              <a href="./assets/images/resim-deprem/1.png" class="glightbox" data-gallery="gallery-deprem">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-deprem/1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deprem Radarı</h3>
+
+                <p class="project-category">Mobil Application</p>
+              </a>
+              
+              <div id="additional-images-deprem" style="display: none;"></div>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="mobil application">
+              <a href="./assets/images/resim-deprem/video.mp4" class="glightbox" data-gallery="gallery-1">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/resim-deprem/1.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deprem Radarı Uygulama Videosu</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="iletişim">
+
+        <header>
+          <h2 class="h2 article-title">İletişim</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232357.54907950223!2d32.59795774239392!3d39.90352329781131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e1!3m2!1str!2str!4v1731539682880!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">İletişim Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+    <script>
+      const lightbox = GLightbox({
+        selector: '.glightbox' // Lightbox sınıfı
+      });
+    </script>
+
+
+</body>
+
+</html>
