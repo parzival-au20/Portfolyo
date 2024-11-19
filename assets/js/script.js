@@ -122,6 +122,7 @@ const projects = [
   { path: './assets/images/resim-haftalıkFaaliyet', totalImages: 14, galleryId: 'gallery-faaliyet', containerId: 'additional-images-faaliyet' },
   { path: './assets/images/resim-3DProject', totalImages: 4, galleryId: 'gallery-3D', containerId: 'additional-images-3D' },
   { path: './assets/images/resim-ustaYardım/', totalImages: 21, galleryId: 'gallery-ustaYardım', containerId: 'additional-images-ustaYardım' },
+  { path: './assets/images/resim-MedyaTakip/', totalImages: 2, galleryId: 'gallery-mediaTakip', containerId: 'additional-images-mediTakip' },
   // Yeni projeler buraya eklenebilir
 ];
 
